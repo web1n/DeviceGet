@@ -35,7 +35,7 @@ class DeviceGet implements Typecho_Plugin_Interface {
      * @return void
      */
     public static function config(Typecho_Widget_Helper_Form $form) {
-        echo '<p>请在模板适当位置插入: echo DeviceGet::getDevice($comments->agent); </p>';
+        echo '<p>请在模板适当位置插入: <span style="color:#467B96;font-weight:bold;">&lt;?php echo DeviceGet::getDevice($comments->agent);  ?&gt;</span></p>';
         echo '<p>需要在评论中显示的内容:</p>';
         $showDevice = new Typecho_Widget_Helper_Form_Element_Checkbox('showDevice', array(1 => _t('手机型号')), NULL, NULL, NULL);
         $form->addInput($showDevice);
