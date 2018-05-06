@@ -1,11 +1,11 @@
 # DeviceGet
 这是一个 Typecho插件,可以在每条评论后面加上评论者的手机型号信息.
 
-
+![效果图](https://raw.githubusercontent.com/web1n/DeviceGet/master/%E6%8D%95%E8%8E%B7.PNG)
 
 ### 如何使用?
 
-1. 下载 DeviceGet.php , 复制文件到 Typecho 安装目录 /usr/plugin/ 下.
+1. 下载 DeviceGet.php , 复制文件到 Typecho 安装目录/usr/plugin/ 下.
 
 2. 启用插件
 
