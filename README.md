@@ -5,11 +5,11 @@
 
 ### 如何使用?
 
-1.下载 DeviceGet.php , 复制文件到 Typecho 目录/usr/plugin/ 下.
+1. 下载 DeviceGet.php , 复制文件到 Typecho 安装目录 /usr/plugin/ 下.
 
-2.启用插件
+2. 启用插件
 
-3.在你的网站模板适合的地方插入:
+3. 在你的网站模板适合的地方插入:
 
 ```php 
 <?php echo DeviceGet::getDevice($comments->agent); ?>
